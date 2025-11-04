@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+  m_Name: whirlyblendmodes_SkeletonData
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: c9f333143cf876247a71a4ef139bc5fb, type: 2}
+  scale: 0.01
+  skeletonJSON: {fileID: 4900000, guid: 6872a395d5ce60a4697ba282532b8993, type: 3}
+  isUpgradingBlendModeMaterials: 0
+  blendModeMaterials:
+    requiresBlendModeMaterials: 1
+    applyAdditiveMaterial: 1
+    additiveMaterials:
+    - pageName: whirlyblendmodes.png
+      material: {fileID: 2100000, guid: 45555d250636c224d97b915ca3cc420b, type: 2}
+    multiplyMaterials:
+    - pageName: whirlyblendmodes.png
+      material: {fileID: 2100000, guid: 5557aaf4f1c8e974bb26f9e9f3a569cb, type: 2}
+    screenMaterials:
+    - pageName: whirlyblendmodes.png
+      material: {fileID: 2100000, guid: 6486b5091aab6a841aeb403ddc474b89, type: 2}
+  skeletonDataModifiers: []
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0
+  controller: {fileID: 0}
